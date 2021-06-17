@@ -1,0 +1,75 @@
+body{ Background-color: black;}
+.A4x4{
+    height: 55px;
+    width: 55px;
+    background-color: aqua;
+    margin: 3px;
+    display: inline-block;
+    border-radius: 8px;
+}
+.Table4{
+    display: flex;
+    justify-content: center;
+}
+.MainT4x4{ margin: 10px;}
+.B6x6{
+    height: 70px;
+    width: 70px;
+    background-color: aqua;
+    margin: 3px;
+    display: inline-block;
+    border-radius: 8px;
+}
+.Table6{
+    display: flex;
+    justify-content: center;
+}
+.MainT6x6{
+    background-color: rgb(202, 199, 199);
+    margin: auto;
+    width: 450px;
+}
+.Table{
+    height: 30px;
+    width: 100%;
+}
+#StopWatch{
+    width: 100%;
+    font-size: 40px;
+    color: white;
+    display: inline;
+}
+.buttons{ display: block;}
+#reset{ display: none;}
+.display{ display: none;}
+@media(max-width:536px){
+    .Table{ margin-bottom: 65px; }
+    #StopWatch{ font-size: 1.2rem; }
+    .B6x6 {
+        height: 55px;
+        width: 58px;
+   }
+    .A4x4 {
+        height: 40px;
+        width: 40px;
+   }
+    .MainT6x6{
+        background-color: rgb(202, 199, 199);
+        margin: auto;
+        width: 350px;
+   }
+}
+button{
+    padding: 5px 10px;
+    background-color: grey;
+    color: white;
+    border-radius: 5px;
+}
+button:hover{ color: black;}
+a{
+    text-decoration: none;
+    color: white;
+    background-color: grey;
+}
+a:hover{ color:black;}
+#divQuit{ margin-top: 5px;}
